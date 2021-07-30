@@ -1,3 +1,4 @@
+// npm run dev
 const express = require('express');
 const app = express();
 
@@ -9,4 +10,4 @@ app.use(express.urlencoded({extended: false}));//função do express permite que
 app.use(require('./routes/index'));
 
 app.listen(4000);
-console.log('Server on port 3000');
+console.log('Server on port 4000');

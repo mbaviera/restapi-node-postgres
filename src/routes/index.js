@@ -5,7 +5,7 @@ const { getUsers, createUser } = require('../controllers/index.controller')//imp
 
 //rota de get usuarios -  cada vez que eu solicitar a rota users ele me responde com os usuarios da base de dados
 router.get('/users', getUsers);
-//rota de cadastro de usuarios
+//rota de cadastro de usuarios (post)
 router.post('/users', createUser);
 
 module.exports = router;
