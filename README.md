@@ -1,6 +1,6 @@
 # Título do projeto
 
-Nodejs RestAPI
+Node.js RestAPI - construido como forma de desafio.
 
 ## 🛠️ Construído com
 
